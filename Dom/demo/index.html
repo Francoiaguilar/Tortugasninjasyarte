@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+    <html Lang="en">
+        <head>
+            <meta charset="UTF-8" />
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Clase 3 - DOM</title>
+            <link rel="stylesheet" href="" />
+        </head>
+
+        <body>
+
+            <div class="header">
+                <h1 id="title">Mi pagina de las Tortugas Ninja</h1>
+            </div>
+
+            <h2>Personajes</h2>
+
+            <div class="container">
+
+                <button id="characterChange">Cambiar Imagen</button>
+                <div class="imgContainer">
+                    <h2 id="characterName"></h2> 
+                    <img
+                        id="characterImg"
+                        src="./assets/portada.png"
+                        alt="Personaje" />
+                </div>
+            </div>
+
+            <div class="footer">
+
+                <div>
+                    <input id="name" type="text" placeholder="Escribe tu nombre" />   <!-- 1) el nombre que yo escribi en este imput -->
+                    <button id="setName">Enviar</button>                              <!-- 2) cuando yo presione este boton -->
+                </div>
+
+                <div>
+                    <span id="createdBy">Aplicacion creada por: </span>               <!-- 3) aparezca luego del contenido de este span-->
+                </div>
+
+            </div>
+            
+            <script src="./scripts/index.js"></script>
+        </body>
+</html>
